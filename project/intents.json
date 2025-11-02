@@ -1,0 +1,20 @@
+{
+  "Tags": [
+    {
+      "tag": "greeting",
+      "patterns": "hello(?P<X>.*)",
+      "responses": [
+        "How do you do. Please state your problem."
+      ]
+    },
+    {
+      "tag": "desire",
+      "patterns": "I want (?P<X>.+)",
+      "responses": [
+        "What would it mean if you got {X}",
+        "Why do you want {X}",
+        "Suppose you got {X} soon"
+      ]
+    }
+  ]
+}
